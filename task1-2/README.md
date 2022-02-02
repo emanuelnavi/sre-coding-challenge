@@ -9,7 +9,9 @@ The above will create resourse and will output the bucket arn.
 Login to your email and subscribe to the topic
 
 Now upload a file to test:
+
 aws s3 cp test.txt s3://<bucket_name from above>
+
 aws s3 cp test.txt s3://anil-source-bucket-quantum
 
 This will upload file to bucket and you should recieve a email notification
